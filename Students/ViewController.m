@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     StudentModel *student = [[StudentModel alloc] initWithName:@"John" Surname:@"Smith" Age: 24];
-   // [student description];
+ 
     NSLog(@"%@", [student description]);
     [student increaseAgeOn:4];
     NSLog(@"%@", [student description]);
